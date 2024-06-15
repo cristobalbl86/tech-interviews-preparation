@@ -1,0 +1,12 @@
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\bin\Debug\netcoreapp2.1\LinqAndLambdas.deps.json
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\bin\Debug\netcoreapp2.1\LinqAndLambdas.runtimeconfig.json
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\bin\Debug\netcoreapp2.1\LinqAndLambdas.runtimeconfig.dev.json
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\bin\Debug\netcoreapp2.1\LinqAndLambdas.dll
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\bin\Debug\netcoreapp2.1\LinqAndLambdas.pdb
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\obj\Debug\netcoreapp2.1\LinqAndLambdas.csprojAssemblyReference.cache
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\obj\Debug\netcoreapp2.1\LinqAndLambdas.csproj.CoreCompileInputs.cache
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\obj\Debug\netcoreapp2.1\LinqAndLambdas.AssemblyInfoInputs.cache
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\obj\Debug\netcoreapp2.1\LinqAndLambdas.AssemblyInfo.cs
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\obj\Debug\netcoreapp2.1\LinqAndLambdas.dll
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\obj\Debug\netcoreapp2.1\LinqAndLambdas.pdb
+C:\BUENROSC1\MyFiles\TestProjects\LinqAndLambdas\LinqAndLambdas\LinqAndLambdas\obj\Debug\netcoreapp2.1\LinqAndLambdas.genruntimeconfig.cache

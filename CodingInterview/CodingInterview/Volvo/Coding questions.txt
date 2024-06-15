@@ -1,0 +1,126 @@
+﻿[‎11/‎16/‎2020 3:19 PM]  Davis Brad (ley):  
+Write a recursive method that will call itself to print "Hello i", where i is the value passed to it, up to and including 50. 
+Output Example:
+Hello 1
+Hello 2
+Hello 3 
+        static void Main(string[] args)
+        {
+            PrintHello(1);
+	} 
+
+        private static void PrintHello(int value)
+        {
+	   // ToDo:  Print the message "Hello" plus the value passed to PrintHello up and including the case where value is 50.
+	} 
+ 
+[‎11/‎16/‎2020 3:24 PM]  
+        static void Main(string[] args)
+        {
+            PrintHello(1);
+	} 
+
+        private static void PrintHello(int value)
+        {
+			if(value > 50)
+				return;
+			
+			Console.WriteLine($"Hello {value}");
+			
+			PrintHello(value + 1);
+		}  
+ 
+[‎11/‎16/‎2020 3:31 PM]  Payne Dave:  
+1.       Let’s say I have a table called Person and it has the following columns: name, salary and country.  Write an SQL query to return the columns name and salary, and records should be listed in order from highest salary to lowest salary. 
+ 
+[‎11/‎16/‎2020 3:32 PM]  
+Select name, salary
+from Person
+Orderby salary desc
+ 
+[‎11/‎16/‎2020 3:32 PM]  Payne Dave:  
+Orderby Order by
+1.       Write a query to calculate the total salary for all records in the Person table. 
+ 
+[‎11/‎16/‎2020 3:33 PM]  
+Select sum(salary)
+from Person
+ 
+[‎11/‎16/‎2020 3:33 PM]  Payne Dave:  
+1.       Write a SQL query to find the maximum and minimum salary in the person table. 
+ 
+[‎11/‎16/‎2020 3:34 PM]  
+Select Min(salary), Ma:@salary)
+from Person
+ 
+[‎11/‎16/‎2020 3:34 PM]  Payne Dave:  
+1.       write a SQL query to determine the total salary for each country.  
+ 
+[‎11/‎16/‎2020 3:35 PM]  
+select country, Sum(salary)
+from Person
+group by country;
+ 
+[‎11/‎16/‎2020 3:35 PM]  Payne Dave:  
+write a SQL query to list all countries with a total salary greater than or equal to $1,000,000.   
+ 
+[‎11/‎16/‎2020 3:37 PM]  
+select country, Sum(salary)
+from Person
+group by country
+having sum(salary) > 1000000; 
+ 
+[‎11/‎16/‎2020 3:37 PM]  
+select country, Sum(salary)
+from Person
+group by country
+having sum(salary) >= 1000000;  
+ 
+[‎11/‎16/‎2020 3:40 PM]  
+#
+ 
+[‎11/‎16/‎2020 3:40 PM]  Payne Dave:  
+string[] arr1 = { "a", "b", "c" };
+     var arr2 = arr1;
+     arr2[0] = "d";
+     Console.WriteLine(arr1[0]); 
+ 
+[‎11/‎16/‎2020 3:44 PM]  Payne Dave:  
+$('div.class1 .class2').addClass('class3') 
+ 
+[‎11/‎16/‎2020 3:45 PM]  Payne Dave:  
+Difference between var and let in javascript?
+function doIt() {
+    {
+      var x = 10;
+    }
+    alert('value of x is ' + x);
+  }
+  doIt(); 
+ 
+[‎11/‎16/‎2020 3:47 PM]  Payne Dave:  
+function addNums(num1, num2) {
+  return num1 + num2;
+} 
+ 
+[‎11/‎16/‎2020 3:47 PM]  
+addNums(num1, num2) => num1 + num2;
+ 
+[‎11/‎16/‎2020 3:49 PM]  
+let fcAdd = addNums(num1, num2) => num1+num2;
+ 
+[‎11/‎16/‎2020 3:49 PM]  
+let fcAdd = (num1, num2) => num1+num2; 
+ 
+[‎11/‎16/‎2020 3:49 PM]  Payne Dave:  
+isNaN  
+var add_the_handlers = function (nodes) {
+       let i;
+       for (i = 0; i < nodes.length; i += 1) {
+         nodes[i].onclick = function (e) {
+           alert(i);
+         };
+       }
+     }; 
+ 
+You were removed from the conversation. 
